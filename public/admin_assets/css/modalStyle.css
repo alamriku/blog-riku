@@ -1,0 +1,58 @@
+
+  .myModal
+  {
+    position: fixed;
+    margin-top: 57px;
+    top: 0;
+     display: none;
+    left: 420px;
+    width: 543px;
+    height: 244px;
+    background-color: #aaadac;
+    overflow: hidden;
+    padding-top: 50px;
+    z-index: 1;
+    text-align:center;
+  }
+
+  .modalContent
+  {
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 38px;
+        text-align: center;
+        /* margin-right: 40px; */
+        color: #08090c;
+        font-family: sans-serif;
+        font-size: 25px;
+  }
+
+  .riku-btn 
+  {
+         display: inline-block;
+         width: 62px;
+         padding-top: 14px;
+         padding-right: 15px;
+         height: 40px;
+         margin-right: 50px;
+         /* margin-top: 120px; */
+         margin-left: 42px;
+         
+         font-stretch: extra-expanded;
+         font-family: sans-serif;
+         font-size: 25px;
+         padding-left: 15px;
+         
+  }
+
+   .riku-btn a 
+   {
+        text-decoration: none;
+        color: white;
+   }
+
+   .riku-btn a:hover
+   {
+    text-decoration: none;
+    color: white;
+   }
