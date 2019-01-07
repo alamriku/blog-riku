@@ -92,7 +92,7 @@ return [
     */
 
     'fallback_locale' => 'en',
-
+    
     /*
     |--------------------------------------------------------------------------
     | Faker Locale
@@ -116,7 +116,7 @@ return [
     | will not be safe. Please do this before deploying an application!
     |
     */
-
+    'log'=>'errorlog',
     'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
@@ -225,6 +225,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+        
     ],
 
 ];
