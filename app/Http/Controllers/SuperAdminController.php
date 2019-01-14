@@ -150,7 +150,7 @@ class SuperAdminController extends Controller
                 {
                     $picture =Date('His').$fileName;
                     $image_url = 'public/blog_image/'.$picture;
-                    $destination_path = "/public/blog_image/";
+                    $destination_path = base_path()."/public/blog_image/";
                     $success = $files->move($destination_path,$picture);
                     foreach ($data as $value)
                     {
